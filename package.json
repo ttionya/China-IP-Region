@@ -28,8 +28,5 @@
     "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.6.0",
     "koa": "^2.5.0"
-  },
-  "engines" : {
-    "node" : ">=7.6"
   }
 }
