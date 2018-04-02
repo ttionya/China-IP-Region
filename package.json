@@ -1,0 +1,33 @@
+{
+  "name": "ip-region",
+  "version": "0.0.0-alpha0",
+  "description": "Get China IP region.",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d ./dist",
+    "start": "forever -l forever.log -o logs.log -e logs.log -a start index.js",
+    "stop": "forever stop index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ttionya/China-IP-Region.git"
+  },
+  "keywords": [
+    "IP",
+    "Region",
+    "China IP"
+  ],
+  "author": "ttionya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ttionya/China-IP-Region/issues"
+  },
+  "homepage": "https://github.com/ttionya/China-IP-Region",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "bluebird": "^3.5.0",
+    "koa": "^2.5.0"
+  }
+}
