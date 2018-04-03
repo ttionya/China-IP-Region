@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "babel src -d ./dist",
-    "start": "forever -l forever.log -o logs.log -e logs.log -a start index.js",
-    "stop": "forever stop index.js"
+    "start": "pm2 start ./dist/index.js --name China-IP-Region",
+    "restart": "pm2 restart China-IP-Region",
+    "stop": "pm2 stop China-IP-Region"
   },
   "repository": {
     "type": "git",

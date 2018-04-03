@@ -4,7 +4,7 @@ const Koa = require('koa');
 const ip2Region = require('./utils/ip2region');
 
 const app = new Koa();
-const query = ip2Region.create('../data/ip2region.db');
+const query = ip2Region.create('./data/ip2region.db');
 
 const ipv4Reg = /^((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$/;
 
