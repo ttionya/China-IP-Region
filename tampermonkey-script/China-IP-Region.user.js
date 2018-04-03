@@ -6,6 +6,8 @@
 // @description  设定远程地址，获得 IP 所属区域（中国）
 // @author       ttionya
 // @require      https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js
+// @updateURL    https://raw.githubusercontent.com/ttionya/China-IP-Region/master/tampermonkey-script/China-IP-Region.user.js
+// @downloadURL  https://raw.githubusercontent.com/ttionya/China-IP-Region/master/tampermonkey-script/China-IP-Region.user.js
 // @match        *://*/*
 // @grant        GM_xmlhttpRequest
 // @grant        GM_addStyle
