@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         China IP Region
 // @namespace    https://github.com/ttionya
-// @version      1.0.0
+// @version      1.0.1
 // @encoding     utf-8
 // @description  设定远程地址，获得 IP 所属区域（中国）
 // @author       ttionya
@@ -21,7 +21,7 @@
   var API = 'http://192.168.1.196:3000/', // 接口地址
     DEBUG = false;
 
-  GM_addStyle('.tips-container { position: fixed; right: 10px; bottom: 10px; padding: 10px 20px; border-radius: 20px; color: #fff; background-color: #333; }');
+  GM_addStyle('.tips-container { position: fixed; z-index: 9999999; right: 10px; bottom: 10px; padding: 10px 20px; border-radius: 20px; color: #fff; background-color: #333; }');
 
   // 弹窗
   var dialog = {
