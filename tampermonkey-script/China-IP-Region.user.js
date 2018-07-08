@@ -21,21 +21,21 @@
   var API = 'http://192.168.1.196:3000/', // 接口地址
     DEBUG = false;
 
-  GM_addStyle('.tips-container { position: fixed; z-index: 9999999; right: 10px; bottom: 10px; padding: 10px 20px; border-radius: 20px; color: #fff; background-color: #333; }');
+  GM_addStyle('.cipr-tips-container { position: fixed; z-index: 9999999; right: 10px; bottom: 10px; padding: 10px 20px; border-radius: 20px; color: #fff; background-color: #333; }');
 
   // 弹窗
   var dialog = {
     show: function (text) {
       this.hide();
 
-      var $tipsContainer = $('<div class="tips-container"></div>');
+      var $tipsContainer = $('<div class="cipr-tips-container"></div>');
 
       $tipsContainer.text(text);
 
       $(document.body).append($tipsContainer);
     },
     hide: function () {
-      $('.tips-container').remove();
+      $('.cipr-tips-container').remove();
     }
   };
 
