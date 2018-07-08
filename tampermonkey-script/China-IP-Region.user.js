@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         China IP Region
 // @namespace    https://github.com/ttionya
-// @version      1.0.1
+// @version      1.0.2
 // @encoding     utf-8
 // @description  设定远程地址，获得 IP 所属区域（中国）
 // @author       ttionya
