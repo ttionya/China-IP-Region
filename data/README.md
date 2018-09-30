@@ -2,4 +2,4 @@
 
 IP 数据库来自 [lionsoul2014/ip2region](https://github.com/lionsoul2014/ip2region) 项目
 
-数据库版本：2018.03.26
+数据库版本：2018.07.26
