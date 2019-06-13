@@ -6,7 +6,7 @@
 
 ## Requirements
 
-- [Node.js](https://nodejs.org/en/) > 7.6
+- [Node.js](https://nodejs.org/en/) > 8.9
 - NPM (normally comes with Node.js)
 
 
@@ -14,9 +14,8 @@
 ### Server
 
 1. Install pm2 globally, `npm i -g pm2`
-2. Install dependencies, `npm i`
-3. Build, `npm run build`
-4. Run, `npm run start`
+2. Install dependencies, `npm i --production`
+3. Run, `npm run start`
 
 ### Client
 
@@ -34,4 +33,4 @@
 ## License
 
 China IP Region is licensed under the MIT license.  
-Copyright © 2018, ttionya
+Copyright © 2019, ttionya

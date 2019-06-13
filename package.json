@@ -1,11 +1,10 @@
 {
   "name": "ip-region",
-  "version": "0.0.0-alpha0",
+  "version": "1.0.0",
   "description": "Get China IP region.",
-  "main": "index.js",
   "scripts": {
-    "build": "babel src -d ./dist",
-    "start": "pm2 start ./dist/index.js --name China-IP-Region",
+    "dev": "node ./src/index.js",
+    "start": "pm2 start ./src/index.js --name China-IP-Region",
     "restart": "pm2 restart China-IP-Region",
     "stop": "pm2 stop China-IP-Region",
     "lint": "eslint . --fix"
