@@ -7,7 +7,11 @@
     "build": "babel src -d ./dist",
     "start": "pm2 start ./dist/index.js --name China-IP-Region",
     "restart": "pm2 restart China-IP-Region",
-    "stop": "pm2 stop China-IP-Region"
+    "stop": "pm2 stop China-IP-Region",
+    "lint": "eslint . --fix"
+  },
+  "engines": {
+    "node": ">=8.9.0"
   },
   "repository": {
     "type": "git",
@@ -26,5 +30,21 @@
   "homepage": "https://github.com/ttionya/China-IP-Region",
   "dependencies": {
     "koa": "^2.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.0.0",
+    "husky": "^1.2.1",
+    "lint-staged": "^8.1.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "**/*.js": [
+      "eslint --fix",
+      "git add"
+    ]
   }
 }
