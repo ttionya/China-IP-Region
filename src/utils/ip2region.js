@@ -380,11 +380,11 @@ class IP2Region {
     }
 
     /**
-    * Async of btreeSearch.
+     * Async of btreeSearch.
      * @param {string} ip The IP address to search for.
      * @param {Function} callBack The callBack function with two parameters, if successful,
      * err is null and result is `{ city: 2163, region: '中国|0|广东省|深圳市|阿里云' }`
-    */
+     */
     btreeSearch(ip, callBack) {
         ip = _ip2long(ip);
 
@@ -496,7 +496,7 @@ class IP2Region {
 
     /**
      * Sync of MemorySearch.
-     * @param {String} ip 
+     * @param {String} ip
      */
     memorySearchSync(ip) {
 
@@ -553,7 +553,7 @@ class IP2Region {
 
     /**
      * Async of MemorySearch.
-     * @param {String} ip 
+     * @param {String} ip
      */
     memorySearch(ip, callBack) {
 
