@@ -43,5 +43,7 @@ app
 
     ctx.body = responseObj
   })
-
-  .listen(3000)
+  .listen(
+    process.env.NODE_PORT || 3000,
+    process.env.NODE_HOST || '127.0.0.1'
+  )

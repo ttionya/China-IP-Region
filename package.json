@@ -4,7 +4,7 @@
   "description": "Get China IP region.",
   "scripts": {
     "dev": "node ./src/index.js",
-    "start": "pm2 start ./src/index.js --name China-IP-Region",
+    "start": "cross-env NODE_PORT=8101 pm2 start ./src/index.js --name China-IP-Region",
     "restart": "pm2 restart China-IP-Region",
     "stop": "pm2 stop China-IP-Region",
     "lint": "eslint . --fix"
@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/ttionya/China-IP-Region",
   "dependencies": {
+    "cross-env": "^5.2.0",
     "koa": "^2.7.0"
   },
   "devDependencies": {
