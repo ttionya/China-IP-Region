@@ -6,7 +6,7 @@
 
 ## Requirements
 
-- [Node.js](https://nodejs.org/en/) > 8.9
+- [Node.js](https://nodejs.org/en/) > 10.18
 - NPM (normally comes with Node.js)
 
 
@@ -32,5 +32,5 @@
 
 ## License
 
-China IP Region is licensed under the MIT license.  
-Copyright © 2019, ttionya
+China IP Region is licensed under the MIT license.
+Copyright © 2020, ttionya

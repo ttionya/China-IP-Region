@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    // 严格模式
+    "strict": true,
+
+    "target": "ESNext",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+
+    "resolveJsonModule": true,
+    "noEmit": true,
+
+    // 允许从没有设置默认导出的模块中默认导入
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    // 启用实验性的 ES 装饰器
+    "experimentalDecorators": true,
+    // 禁止未使用的局部变量
+    "noUnusedLocals": true,
+    // 禁止未使用的参数
+    "noUnusedParameters": true,
+    // 允许执行不到的代码
+    "allowUnreachableCode": false,
+    // 允许未使用的标签
+    "allowUnusedLabels": false,
+    // 禁止存在没有返回值的返回路径
+    "noImplicitReturns": true,
+
+    // 输出声明文件
+    "declaration": false,
+    // 输出 sourcemap
+    "sourceMap": false,
+
+    // 输出使用颜色和上下文
+    "pretty": true
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "restartable": "rs",
+  "verbose": true,
+  "execMap": {
+    "ts": "ts-node"
+  },
+  "watch": [
+    "src"
+  ],
+  "ext": "ts"
+}
