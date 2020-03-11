@@ -8,7 +8,8 @@
     "moduleResolution": "Node",
 
     "resolveJsonModule": true,
-    "noEmit": true,
+    "noEmit": false,
+    "outDir": "dist",
 
     // 允许从没有设置默认导出的模块中默认导入
     "allowSyntheticDefaultImports": true,
@@ -30,8 +31,14 @@
     "declaration": false,
     // 输出 sourcemap
     "sourceMap": false,
+    // 允许 JS 文件
+    "allowJs": true,
 
     // 输出使用颜色和上下文
     "pretty": true
-  }
+  },
+
+  "include": [
+    "src"
+  ]
 }

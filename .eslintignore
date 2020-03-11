@@ -2,3 +2,6 @@
 tampermonkey-script/
 
 src/utils/ip2region.js
+
+# Output
+dist/
