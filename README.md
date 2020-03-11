@@ -1,5 +1,7 @@
 # China IP Region
 
+[![Known Vulnerabilities](https://snyk.io/test/github/ttionya/China-IP-Region/badge.svg?targetFile=package.json)](https://snyk.io/test/github/ttionya/China-IP-Region?targetFile=package.json)
+
 选中以得到相应 IPv4 地址归属地，在页面右下角显示
 
 很简陋的小工具
@@ -14,7 +16,7 @@
 ### Server
 
 1. Install pm2 globally, `npm i -g pm2`
-2. Install dependencies, `npm i --production`
+2. Install dependencies, `npm i`
 3. Run, `npm run start`
 
 ### Client
