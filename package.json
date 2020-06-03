@@ -32,7 +32,7 @@
   "dependencies": {
     "koa": "^2.11.0",
     "rimraf": "^3.0.0",
-    "typescript": "^3.8.0"
+    "typescript": "^3.9.2"
   },
   "devDependencies": {
     "@ttionya/eslint-config": "^1.0.0",
