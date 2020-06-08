@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/ttionya/China-IP-Region",
   "dependencies": {
-    "koa": "^2.11.0",
+    "koa": "^2.12.0",
     "rimraf": "^3.0.0",
     "typescript": "^3.8.0"
   },
